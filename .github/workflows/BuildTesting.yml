@@ -8,8 +8,7 @@ on: [push, pull_request]
 jobs:
   build:
      name: Initialize build on .NET Core
-     
-    runs-on: windows-latest
+      runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v3
